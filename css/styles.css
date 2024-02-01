@@ -124,11 +124,16 @@ header {
 .bouton2 {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to top,#265488, #a7cedd );
+    background-image:url(../images/nageur.svg),url(../images/ombrelle.svg) ,linear-gradient(to top,#265488, #a7cedd );
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 50%;
+
+
+
     
 
     }
-    .multi-bg { background-image: url(nageur.svg), url(ombrelle.svg), linear-gradient(to right, rgba(5, 50, 115, 1), rgba(255, 255, 255, 0));}
+.multi-bg { background-image: url(../images/nageur.svg), url(../images/ombrelle.svg), linear-gradient(to right, rgba(5, 50, 115, 1), rgba(255, 255, 255, 0));
     /*
         Mettre un arrière-plan en dégradé de la couleur #a7cedd à la couleur #265488 du bas vers le haut.
 
